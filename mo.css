@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+*{
+    font-family : "Ubuntu", sans-serif;
+    padding: 0;
+    margin: 0;  
+    a{
+        color: white;
+        text-decoration: none;
+    }
+}
+body{
+    background: #000000b7;
+
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    
+    
+}
+.container{
+    background-image: linear-gradient(to right,#01022d9c 30%, #000000),
+    url(avatar-2009\ \(1\).webp);
+    
+    width: 90%;
+    height: 640px;
+
+}
+.container:hover{
+    background-image: linear-gradient(to right,#01022d9c 30%, transparent),
+    url(avatar-2009\ \(1\).webp);
+    
+    
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+.logo{
+font-size: 30px;
+text-transform: uppercase;
+}
+ul{
+    width: 60%;
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+}
+ul a{
+    border-bottom: 2px solid transparent;
+
+}
+ul a:hover{
+    border-bottom-color: red;
+}
+.content{
+    background: white;
+    width: 50%;
+    margin-top: 50px;
+    padding: 30px;
+}
+.content h2{
+    font-size: 100px;
+    text-transform: uppercase;
+}
+.content:hover{
+    background:transparent ;
+}
+.content p{
+    letter-spacing: 2px;
+    width: 350px;
+    padding: 20px;
+}
+.content button{
+    font-size: 30px;
+    padding: 6px 10px;
+    border-radius: 10px;
+}
